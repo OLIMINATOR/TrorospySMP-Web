@@ -1,0 +1,48 @@
+button {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin: 1.5rem 1rem;
+  background-color: white;
+  border-style: none;
+  font-size: 1.5rem;
+  padding: 0.2rem 1rem;
+  filter: drop-shadow(8px 8px 1px #e4e4e4);
+  transition: 0.1s;
+  cursor: url("../assets/hlava.png"), auto;
+
+  &:hover {
+    border-radius: 0.2rem;
+    filter: drop-shadow(1px 1px 1px #e4e4e4);
+  }
+}
+
+.btn1 {
+  background-color: #262626;
+  filter: drop-shadow(8px 8px 1px #181818);
+  &:hover {
+    filter: drop-shadow(1px 1px 1px #181818);
+  }
+}
+.btn2 {
+  background-color: #0057a4;
+  filter: drop-shadow(8px 8px 1px #002b51);
+  &:hover {
+    filter: drop-shadow(1px 1px 1px #002b51);
+  }
+}
+
+.btn3 {
+  background-color: #002c00;
+  filter: drop-shadow(8px 8px 1px #001300);
+  &:hover {
+    filter: drop-shadow(1px 1px 1px #001300);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .buttons {
+    width: 80px;
+  }
+}
