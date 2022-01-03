@@ -41,6 +41,18 @@ body {
   --animate-duration: 2s;
 }
 
+.uwuman {
+  background-color: white;
+  color: black;
+  -webkit-filter: drop-shadow(0 0 0.75rem black);
+          filter: drop-shadow(0 0 0.75rem black);
+}
+
+.kktuwu {
+  background-color: blanchedalmond;
+  text-decoration: none;
+}
+
 body {
   background-image: url("../assets/pozadie.png");
 }
@@ -139,6 +151,23 @@ button:hover {
 .btn3:hover {
   -webkit-filter: drop-shadow(1px 1px 1px #001300);
           filter: drop-shadow(1px 1px 1px #001300);
+}
+
+@media screen and (max-width: 800px) {
+  .buttons {
+    width: 80px;
+  }
+}
+
+.btn4 {
+  background-color: #002d8d;
+  -webkit-filter: drop-shadow(8px 8px 1px #001747);
+          filter: drop-shadow(8px 8px 1px #001747);
+}
+
+.btn4:hover {
+  -webkit-filter: drop-shadow(1px 1px 1px #001747);
+          filter: drop-shadow(1px 1px 1px #001747);
 }
 
 @media screen and (max-width: 800px) {

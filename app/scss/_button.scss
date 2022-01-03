@@ -46,3 +46,17 @@ button {
     width: 80px;
   }
 }
+
+.btn4 {
+  background-color: #002d8d;
+  filter: drop-shadow(8px 8px 1px #001747);
+  &:hover {
+    filter: drop-shadow(1px 1px 1px #001747);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .buttons {
+    width: 80px;
+  }
+}
