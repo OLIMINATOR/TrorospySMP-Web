@@ -1,0 +1,1 @@
+{"version":3,"sources":["script.js"],"names":["ipalert","alert","document","getElementById","innerHTML"],"mappings":"AAAA,aAEA,SAASA,UACLC,MAAM,oBAHVC,SAASC,eAAe,UAAUC,UAAY","file":"script.js","sourcesContent":["document.getElementById(\"server\").innerHTML = \"GTA\";\r\n\r\nfunction ipalert() {\r\n    alert(\"IP: trospysmp.cz\");\r\n}\r\n"]}

@@ -1,0 +1,20 @@
+@use "../util" as *;
+
+button {
+    cursor: pointer;
+    border-radius: 0.2rem;
+    font-family: var(--font);
+    color: #fff;
+    margin: 1.5rem 1rem;
+    background-color: gray;
+    border-style: none;
+    font-size: 1.5rem;
+    padding: 0.2rem 1rem;
+    filter: drop-shadow(1px 1px 5px #000);
+    transition: 0.1s;
+    cursor: url("../assets/hlava.png"), auto;
+
+    &:hover {
+        background-color: green;
+    }
+}
