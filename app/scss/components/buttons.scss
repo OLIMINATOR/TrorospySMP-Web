@@ -15,6 +15,18 @@ button {
     cursor: url("../assets/hlava.png"), auto;
 
     &:hover {
-        background-color: green;
+        background-color: var(--blue);
+    }
+}
+
+.btn2 {
+    &:hover {
+        background-color: lightblue;
+    }
+}
+
+.btn4 {
+    &:hover {
+        background-color: var(--green);
     }
 }
