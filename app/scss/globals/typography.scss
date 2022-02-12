@@ -13,21 +13,25 @@ a:active {
     text-decoration: none;
 }
 
-p {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: var(--gray);
-    max-width: 80%;
-    cursor: url("../assets/hlava.png"), auto;
-    font-family: var(--font);
-    color: white;
-}
 h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    cursor: url("../assets/hlava.png"), auto;
-    font-family: var(--font);
     color: white;
+    font-size: 3rem;
+    margin-bottom: rem(10);
+}
+
+h2 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: rem(10);
+}
+
+p {
+    @include breakpoint(medium) {
+        font-size: rem(22);
+    }
+    color: white;
+    font-weight: 100;
+    font-size: rem(18);
 }
 
 ol {
@@ -40,8 +44,4 @@ span {
     text-decoration: underline;
     color: rgb(148, 148, 216);
     font-family: var(--font);
-}
-
-.server-type {
-    color: white;
 }

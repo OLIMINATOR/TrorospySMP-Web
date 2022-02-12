@@ -7,4 +7,25 @@
     flex-direction: column;
     height: 100vh;
     background-image: url("../assets/pozadie.png");
+
+    p {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: var(--gray);
+        max-width: 80%;
+        cursor: url("../assets/hlava.png"), auto;
+        font-family: var(--font);
+        color: white;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        cursor: url("../assets/hlava.png"), auto;
+        font-family: var(--font);
+        color: white;
+    }
+
+    .server-type {
+        color: white;
+    }
 }
