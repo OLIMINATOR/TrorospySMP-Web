@@ -1,9 +1,9 @@
 {
-    "name": "template",
+    "name": "trospysmp",
     "version": "1.0.0",
-    "description": "template",
+    "description": "trospysmp",
     "keywords": [],
-    "author": "template",
+    "author": "oliminator",
     "license": "ISC",
     "dependencies": {
         "@babel/core": "^7.14.8",
