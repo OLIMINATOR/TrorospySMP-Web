@@ -1,7 +1,7 @@
 @use "../util" as *;
 
 .mainpage-info {
-    padding-top: rem(50);
+    padding: rem(50) rem(50);
     background-color: black;
     background-image: url("../assets/bedrock.png");
 }
