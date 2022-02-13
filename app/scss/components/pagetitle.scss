@@ -6,23 +6,32 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url("../assets/pozadie.png");
+    background-image: url("../assets/pozadie.jpg");
+    background-size: cover;
 
     p {
-        font-size: 1.5rem;
+        text-align: center;
+        font-size: rem(18);
         font-weight: 400;
         color: var(--gray);
         max-width: 80%;
         cursor: url("../assets/hlava.png"), auto;
         font-family: var(--font);
         color: white;
+        @include breakpoint(medium) {
+            font-size: 1.5rem;
+        }
     }
     h1 {
-        font-size: 3rem;
+        text-align: center;
+        font-size: rem(30);
         font-weight: 800;
         cursor: url("../assets/hlava.png"), auto;
         font-family: var(--font);
         color: white;
+        @include breakpoint(medium) {
+            font-size: 3rem;
+        }
     }
 
     .server-type {
