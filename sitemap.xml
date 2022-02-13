@@ -7,15 +7,20 @@
 
 
 <url>
-  <loc>https://#/</loc>
+  <loc>https://trospysmp.cz/</loc>
+  <lastmod>2022-02-12T21:11:03+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://#/a</loc>
+  <loc>https://trospysmp.cz/cleni.html</loc>
+  <lastmod>2022-02-12T21:11:03+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://#/b</loc>
+  <loc>https://trospysmp.cz/whitelist.html</loc>
+  <lastmod>2022-02-12T21:11:03+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://#/c</loc>
-</url>
+
+
 </urlset>
