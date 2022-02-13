@@ -1,2 +1,2 @@
-"use strict";function ipalert(){alert("IP: trospysmp.cz")}document.getElementById("server").innerHTML="GTA";
+"use strict";var urlAlphabet="26T198340PX75pxJACKVERYMINDBUSHWOLFGQZbfghjklqvwyzrict123456789",customAlphabet=function(t,e){return function(){for(var n="",r=e;r--;)n+=t[Math.random()*t.length|0];return n}},nanoid=function(){for(var t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:21,e="",n=t;n--;)e+=urlAlphabet[64*Math.random()|0];return e};function ipalert(){alert("IP: trospysmp.cz")}document.getElementById("server")&&(document.getElementById("server").innerHTML="GTA"),document.getElementById("whitelist")&&(document.getElementById("whitelist").innerHTML=nanoid(5));
 //# sourceMappingURL=script.js.map
