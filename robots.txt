@@ -1,3 +1,4 @@
+Sitemap: http://trospysmp.cz/sitemap.xml
 User-Agent: *
 Allow: /
-Disallow: /sukromie
+Disallow: /404
