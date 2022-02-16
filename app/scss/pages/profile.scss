@@ -1,0 +1,21 @@
+@use "../util" as *;
+
+.profile-head {
+    background-color: white;
+    h1,
+    p,
+    li {
+        color: black;
+    }
+    a {
+        color: green;
+    }
+}
+.profile-main {
+    background-color: white;
+    h2,
+    h3,
+    p {
+        color: black;
+    }
+}
