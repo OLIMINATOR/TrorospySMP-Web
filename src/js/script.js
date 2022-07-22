@@ -39,7 +39,3 @@ if (document.getElementById("server")) {
 if (document.getElementById("whitelist")) {
     document.getElementById("whitelist").innerHTML = nanoid(5);
 }
-
-function ipalert() {
-    alert("IP: trospysmp.cz");
-}
