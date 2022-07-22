@@ -11,7 +11,13 @@ export default defineConfig({
                     template: "index.html",
                     injectOptions: {
                         data: {
-                            title: "index",
+                            title: "TrospySMP - Trospyho Minecraft server",
+                            description:
+                                "TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp.",
+                            url: "https://trospysmp.cz/",
+                            theme: "#4d4d4d",
+                            card_image:
+                                "https://trospysmp.cz/assets/pozadie.jpg",
                         },
                     },
                 },

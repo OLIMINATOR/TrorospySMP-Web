@@ -5,47 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Primary Meta Tags -->
-        <title>TrospySMP - Trospyho Minecraft server</title>
-        <meta name="title" content="TrospySMP - Trospyho Minecraft server" />
-        <meta
-            name="description"
-            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp."
-        />
+        <title><%- title %></title>
+        <meta name="title" content="<%- title %>" />
+        <meta name="description" content="<%- description %>" />
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://trospysmp.cz/" />
-        <meta
-            property="og:title"
-            content="TrospySMP - Trospyho Minecraft server"
-        />
-        <meta
-            property="og:description"
-            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp."
-        />
-        <meta
-            property="og:image"
-            content="https://trospysmp.cz/assets/pozadie.jpg"
-        />
+        <meta property="og:url" content="<%- url %>" />
+        <meta property="og:title" content="<%- title %>" />
+        <meta property="og:description" content="<%- description %>" />
+        <meta property="og:image" content="<%- card_image %>" />
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://trospysmp.cz/" />
-        <meta
-            property="twitter:title"
-            content="TrospySMP - Trospyho Minecraft server"
-        />
-        <meta
-            property="twitter:description"
-            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp."
-        />
-        <meta
-            property="twitter:image"
-            content="https://trospysmp.cz/assets/pozadie.jpg"
-        />
-        <meta name="theme-color" content="#4d4d4d" />
+        <meta property="twitter:url" content="<%- url %>" />
+        <meta property="twitter:title" content="<%- title %>" />
+        <meta property="twitter:description" content="<%- description %>" />
+        <meta property="twitter:image" content="<%- card_image %>" />
+        <meta name="theme-color" content="<%- theme %>" />
         <link rel="stylesheet" href="/src/scss/style.scss" />
-        <script type="module" src="/src/js/script.js"></script>
         <script type="application/ld+json">
             {
               "@context": "https://schema.org",
@@ -86,12 +64,10 @@
     <body>
         <header>
             <article class="head-text">
-                <h1 class="animate__animated animate__flip">
-                    TrospySMP - Trospyho SMP server
-                </h1>
+                <h1 class="animate__animated animate__flip"><%- title %></h1>
                 <p class="animate__animated animate__flip">
-                    TrospySMP Najkvalitnejší
-                    <span class="server-type" id="server">TrosypsSMP</span>
+                    Najkvalitnejší
+                    <span class="server-type" id="server">GTA</span>
                     Creative Roleplay server!
                 </p>
                 <section
