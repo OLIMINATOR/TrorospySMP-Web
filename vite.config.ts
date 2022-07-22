@@ -70,6 +70,22 @@ export default defineConfig({
                         },
                     },
                 },
+                {
+                    filename: "cleni/trospy.html",
+                    template: "cleni/trospy.html",
+                    injectOptions: {
+                        data: {
+                            title: "TrospySMP - Trospy",
+                            description:
+                                "Trospy je členom a zároveň menodržitelom TrospySMP do nedávna bol na serveri aj Primátor kým ho Kráľ Hestreng zosadil a ovládol tento terraria RPG server.",
+                            url: "https://trospysmp.cz/cleni/trospy",
+                            theme: "#4d4d4d",
+                            card_image:
+                                "https://trospysmp.cz/assets/pozadie.jpg",
+                            footer: "Trospysmp 1973 - 2020",
+                        },
+                    },
+                },
             ],
         }),
     ],
@@ -79,6 +95,7 @@ export default defineConfig({
                 main: "./index.html",
                 whitelist: "./whitelist.html",
                 cleni: "./cleni/index.html",
+                cleni_trospy: "./cleni/trospy.html",
                 404: "./404.html",
             },
         },
