@@ -1,0 +1,4 @@
+Sitemap: http://trospysmp.cz/sitemap.xml
+User-Agent: *
+Allow: /
+Disallow: /404

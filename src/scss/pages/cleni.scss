@@ -1,0 +1,15 @@
+@use "../util" as *;
+
+.cleni {
+    height: 85rem;
+    padding: rem(5) rem(1);
+    background-color: black;
+    background-image: url("../assets/trospympsaci.jpg");
+    background-size: cover;
+    @include breakpoint(large) {
+        padding: rem(50) rem(100);
+    }
+    @include breakpoint(medium) {
+        height: 93.65vh;
+    }
+}
