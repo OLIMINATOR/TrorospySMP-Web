@@ -38,6 +38,22 @@ export default defineConfig({
                         },
                     },
                 },
+                {
+                    filename: "cleni/index.html",
+                    template: "cleni/index.html",
+                    injectOptions: {
+                        data: {
+                            title: "TrospySMP - Zoznam členov",
+                            description:
+                                "TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp.",
+                            url: "https://trospysmp.cz/cleni",
+                            theme: "#4d4d4d",
+                            card_image:
+                                "https://trospysmp.cz/assets/pozadie.jpg",
+                            footer: "Trospysmp 1973 - 2020",
+                        },
+                    },
+                },
             ],
         }),
     ],
