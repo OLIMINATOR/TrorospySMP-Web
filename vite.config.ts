@@ -22,17 +22,22 @@ export default defineConfig({
                         },
                     },
                 },
-                /*
                 {
-                    filename: "test.html",
-                    template: "test.html",
+                    filename: "whitelist.html",
+                    template: "whitelist.html",
                     injectOptions: {
                         data: {
-                            title: "iaaandex",
+                            title: "TrospySMP - Whitelist",
+                            description:
+                                "TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp.",
+                            url: "https://trospysmp.cz/whitelist",
+                            theme: "#4d4d4d",
+                            card_image:
+                                "https://trospysmp.cz/assets/pozadie.jpg",
+                            footer: "Trospysmp 1973 - 2020",
                         },
                     },
                 },
-                */
             ],
         }),
     ],
@@ -40,7 +45,7 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: "./index.html",
-                //whitelist: "./whitelist.html",
+                whitelist: "./whitelist.html",
                 //cleni: "./cleni/index.html",
             },
         },

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sk-SK">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Primary Meta Tags -->
+        <title><%- title %></title>
+        <meta name="title" content="<%- title %>" />
+        <meta name="description" content="<%- description %>" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="<%- url %>" />
+        <meta property="og:title" content="<%- title %>" />
+        <meta property="og:description" content="<%- description %>" />
+        <meta property="og:image" content="<%- card_image %>" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="<%- url %>" />
+        <meta property="twitter:title" content="<%- title %>" />
+        <meta property="twitter:description" content="<%- description %>" />
+        <meta property="twitter:image" content="<%- card_image %>" />
+        <meta name="theme-color" content="<%- theme %>" />
+        <link rel="stylesheet" href="/src/scss/style.scss" />
+        <script type="module" src="/src/js/script.js"></script>
+    </head>
+    <body>
+        <main>
+            <article class="whitelist">
+                <div class="animate__animated animate__flip">
+                    <h1>Whitelist Generator</h1>
+                    <p>
+                        Vygeneruj si whitelist pomocou tohto id klikni na
+                        generovať a zadaj id
+                    </p>
+                    <p class="id-bg">
+                        Tvoje id: <span id="whitelist">chyba</span>
+                    </p>
+                    <a title="Generovať whitelist" href="https://bit.ly/32z6wYz"
+                        ><button
+                            class="btn4"
+                            title="generovať whitelist na trospysmp"
+                        >
+                            <i class="fas fa-plus-circle"></i> GENEROVAŤ
+                        </button></a
+                    >
+                </div>
+            </article>
+        </main>
+        <footer>
+            <p><%- footer %></p>
+            <p class="credit">
+                Webstránky pripravil
+                <a
+                    title="odkaz na webstránku oliminatora"
+                    href="https://oliminator.net"
+                    >OLIMINATOR</a
+                >
+                v inteligentnej samsung hladničke
+            </p>
+        </footer>
+        <script
+            async
+            defer
+            src="https://scripts.simpleanalyticscdn.com/latest.js"
+        ></script>
+        <noscript
+            ><img
+                src="https://queue.simpleanalyticscdn.com/noscript.gif"
+                alt=""
+                referrerpolicy="no-referrer-when-downgrade"
+        /></noscript>
+    </body>
+</html>
