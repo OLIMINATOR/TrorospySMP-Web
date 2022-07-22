@@ -15,6 +15,7 @@ export default defineConfig({
                         },
                     },
                 },
+                /*
                 {
                     filename: "test.html",
                     template: "test.html",
@@ -24,6 +25,7 @@ export default defineConfig({
                         },
                     },
                 },
+                */
             ],
         }),
     ],
@@ -37,7 +39,9 @@ export default defineConfig({
         },
     },
     publicDir: "public",
+    base: "./",
     server: {
+        host: true,
         fs: {
             allow: [".."],
         },

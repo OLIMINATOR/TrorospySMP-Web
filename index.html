@@ -1,12 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk-SK">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <!-- Primary Meta Tags -->
+        <title>TrospySMP - Trospyho Minecraft server</title>
+        <meta name="title" content="TrospySMP - Trospyho Minecraft server" />
+        <meta
+            name="description"
+            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp."
+        />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://trospysmp.cz/" />
+        <meta
+            property="og:title"
+            content="TrospySMP - Trospyho Minecraft server"
+        />
+        <meta
+            property="og:description"
+            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp."
+        />
+        <meta
+            property="og:image"
+            content="https://trospysmp.cz/assets/pozadie.jpg"
+        />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://trospysmp.cz/" />
+        <meta
+            property="twitter:title"
+            content="TrospySMP - Trospyho Minecraft server"
+        />
+        <meta
+            property="twitter:description"
+            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Nájdeš tu všetky informácie a ako sa dostať na Trospysmp."
+        />
+        <meta
+            property="twitter:image"
+            content="https://trospysmp.cz/assets/pozadie.jpg"
+        />
+        <meta name="theme-color" content="#4d4d4d" />
+        <link rel="stylesheet" href="/src/scss/style.scss" />
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [{
+                "@type": "Question",
+                "name": "Čo je trospysmp?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "TrospySMP je minecraftový survival SMP server. TrospySMP
+            beží na najnovšej FiveM verzrzii 1.18 a taktiež vyuźíva
+             funkciu LifeSteal (Hráči si môži kradnúť srdcia a jedlo
+            asi). Na TrospySMP hrá mnoho YouTuberov ako Trospy,
+             Hestreng, Zovicek, Medvid3k a další."
+                }
+              },{
+                "@type": "Question",
+                "name": "Ako sa dostanem na trospysmp?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Podľa všetkých dostupných informacii na TrospySMP sa
+            môžete dostať vyhraním eventu, sútaže alebo otročením.
+            Pokiaľ ale máte pár subs na yt tak je to možne aj tak."
+                }
+              },{
+                "@type": "Question",
+                "name": "Čo keď nesplnam žiadne podmienky na prijatie na  trospysmp?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "To vôbec nevadí kedže na server môžeš prísť aj pomocou whitelist generatoru
+            kde je veľká šanca že dostaneš whitelist do dalšieho
+            reštartu."
+                }
+              }]
+            }
+        </script>
     </head>
     <body>
-        <%- title %>
+        <header>
+            <article class="head-text">
+                <h1 class="animate__animated animate__flip">
+                    TrospySMP - Trospyho SMP server
+                </h1>
+                <p class="animate__animated animate__flip">
+                    TrospySMP Najkvalitnejší
+                    <span class="server-type" id="server">TrosypsSMP</span>
+                    Creative Roleplay server!
+                </p>
+                <section
+                    class="button-container animate__animated animate__bounceIn"
+                >
+                    <a
+                        title="Mapa TrospySMP"
+                        href="https://goo.gl/maps/VyU9eK4qkzry3UhLA"
+                        ><button class="btn1">
+                            <i class="fas fa-map"></i> Mapu niekto hackol
+                        </button></a
+                    >
+                    <a title="List TrospySMP čenov" href="cleni.html"
+                        ><button class="btn2">
+                            <i class="fas fa-users"></i> Členi
+                        </button></a
+                    >
+                    <button onclick="ipalert()" class="btn3">
+                        <i class="fas fa-location-arrow"></i> IP
+                    </button>
+                    <a
+                        title="Generátor pre whitelist na TrospySMP"
+                        href="whitelist.html"
+                        ><button class="btn4">
+                            <i class="fas fa-plus-circle"></i> Whitelist
+                            Generator
+                        </button></a
+                    >
+                </section>
+            </article>
+        </header>
+        <main>
+            <article class="mainpage-info">
+                <div class="container">
+                    <section>
+                        <h2>Čo je trospysmp?</h2>
+                        <p>
+                            TrospySMP je minecraftový survival SMP server.
+                            TrospySMP beží na najnovšej FiveM verzrzii 1.18 a
+                            taktiež vyuźíva funkciu LifeSteal (Hráči si môži
+                            kradnúť srdcia a jedlo asi). Na TrospySMP hrá mnoho
+                            YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a
+                            další.
+                        </p>
+                    </section>
+                    <br />
+                    <section>
+                        <h2>Ako sa dostanem na trospysmp?</h2>
+                        <p>
+                            Podľa všetkých dostupných informacii na TrospySMP sa
+                            môžete dostať vyhraním eventu, sútaže alebo
+                            otročením. Pokiaľ ale máte pár subs na yt tak je to
+                            možne aj tak.
+                        </p>
+                    </section>
+                    <br />
+                    <section>
+                        <h2>
+                            Čo keď nesplnam žiadne podmienky na prijatie na
+                            trospysmp?
+                        </h2>
+                        <p>
+                            To vôbec nevadí kedže na server môžeš prísť aj
+                            pomocou
+                            <a
+                                title="jediný funkčný whitelist generator"
+                                href="whitelist.html"
+                                >Whitelist Generatoru</a
+                            >
+                            kde je veľká šanca že dostaneš whitelist do dalšieho
+                            reštartu.
+                        </p>
+                    </section>
+                    <br />
+                    <section>
+                        <h2>Aké ma trospysmp socialne siete?</h2>
+                        <p>
+                            Trospysmp ako najväčší RPG economy server má veľa
+                            sociálnych sietí
+                        </p>
+                        <ul>
+                            <li>
+                                <a
+                                    title="trospysmp facebook"
+                                    href="https://www.facebook.com/profile.php?id=100078108044495"
+                                    >Facebook</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    title="trospysmp twitter"
+                                    href="https://twitter.com/trospysmp"
+                                    >Twitter</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    title="trospysmp boojang"
+                                    href="https://bit.ly/32z6wYz"
+                                    >Boojang</a
+                                >
+                            </li>
+                        </ul>
+                        <p>
+                            Pokial ešte nesleduješ TrospySMP trospyho SMP
+                            economy server na sociálnych sietiach tak robíš
+                            chybu!
+                        </p>
+                    </section>
+                </div>
+            </article>
+        </main>
+        <footer>
+            <p>Trospysmp 1973 - 2020</p>
+            <p class="credit">
+                Webstránky pripravil
+                <a
+                    title="odkaz na webstránku oliminatora"
+                    href="https://oliminator.net"
+                    >OLIMINATOR</a
+                >
+                v inteligentnej samsung hladničke
+            </p>
+        </footer>
+        <script
+            async
+            defer
+            src="https://scripts.simpleanalyticscdn.com/latest.js"
+        ></script>
+        <noscript
+            ><img
+                src="https://queue.simpleanalyticscdn.com/noscript.gif"
+                alt=""
+                referrerpolicy="no-referrer-when-downgrade"
+        /></noscript>
     </body>
 </html>

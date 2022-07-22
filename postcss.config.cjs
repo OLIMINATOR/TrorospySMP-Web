@@ -6,7 +6,7 @@ module.exports = {
         autoprefixer(),
         purgecss({
             content: ["./**/*.html"],
-            content: ["./**/*.css"],
+            //content: ["./**/*.css"],
         }),
     ],
 };
