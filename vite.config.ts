@@ -18,6 +18,7 @@ export default defineConfig({
                             theme: "#4d4d4d",
                             card_image:
                                 "https://trospysmp.cz/assets/pozadie.jpg",
+                            footer: "Trospysmp 1973 - 2020",
                         },
                     },
                 },
