@@ -1,3 +1,6 @@
 # TrorospySMP-Web
+Neoficálna webstránka pre TrospySMP  
+Mojím cieľom s touto stránkou je dostať ju na **prvé** miesto v googli pri vyhladaní "trospysmp".
 
-TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další.
+# Prispievanie
+Ak chcete niečím na stránke prisipeť budem rád.
