@@ -6,7 +6,7 @@
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    background-image: url("../assets/pozadie.jpg");
+    background-image: url("/src/images/pozadie.jpg");
     background-size: cover;
 
     p {
@@ -15,7 +15,7 @@
         font-weight: 400;
         color: var(--gray);
         max-width: 80%;
-        cursor: url("../assets/hlava.png"), auto;
+        cursor: url("/src/images/hlava.png"), auto;
         font-family: var(--font);
         color: white;
         @include breakpoint(medium) {

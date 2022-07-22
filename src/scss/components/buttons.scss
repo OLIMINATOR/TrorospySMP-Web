@@ -12,7 +12,7 @@ button {
     padding: 0.2rem 1rem;
     filter: drop-shadow(1px 1px 5px #000);
     transition: 0.1s;
-    cursor: url("../assets/hlava.png"), auto;
+    cursor: url("/src/images/hlava.png"), auto;
 
     &:hover {
         background-color: var(--blue);

@@ -4,7 +4,7 @@
     height: 85rem;
     padding: rem(5) rem(1);
     background-color: black;
-    background-image: url("../assets/trospympsaci.jpg");
+    background-image: url("/src/images/trospympsaci.jpg");
     background-size: cover;
     @include breakpoint(large) {
         padding: rem(50) rem(100);
