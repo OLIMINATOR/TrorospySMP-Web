@@ -86,6 +86,22 @@ export default defineConfig({
                         },
                     },
                 },
+                {
+                    filename: "sitemap.html",
+                    template: "sitemap.html",
+                    injectOptions: {
+                        data: {
+                            title: "TrospySMP - Mapa Webu",
+                            description:
+                                "Trospy je členom a zároveň menodržitelom TrospySMP do nedávna bol na serveri aj Primátor kým ho Kráľ Hestreng zosadil a ovládol tento terraria RPG server.",
+                            url: "https://trospysmp.cz/cleni/trospy",
+                            theme: "#4d4d4d",
+                            card_image:
+                                "https://trospysmp.cz/assets/pozadie.jpg",
+                            footer: "Trospysmp 1973 - 2020",
+                        },
+                    },
+                },
             ],
         }),
     ],

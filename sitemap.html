@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sk-SK">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Primary Meta Tags -->
+        <title><%- title %></title>
+        <meta name="title" content="<%- title %>" />
+        <meta name="description" content="<%- description %>" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="<%- url %>" />
+        <meta property="og:title" content="<%- title %>" />
+        <meta property="og:description" content="<%- description %>" />
+        <meta property="og:image" content="<%- card_image %>" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="<%- url %>" />
+        <meta property="twitter:title" content="<%- title %>" />
+        <meta property="twitter:description" content="<%- description %>" />
+        <meta property="twitter:image" content="<%- card_image %>" />
+        <meta name="theme-color" content="<%- theme %>" />
+        <link rel="stylesheet" href="/src/scss/style.scss" />
+    </head>
+    <body class="sitemap">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html" title="domovska stranka">Domov</a>
+                </li>
+                <li>
+                    <a href="../whitelist.html" title="blacklist generator"
+                        >Whitelist Generator</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://www.google.com/maps/place/Trospy+SMP/@48.6964001,21.2166386,18.5z/data=!4m5!3m4!1s0x473ee1bc387ee439:0x324dff701ba55b32!8m2!3d48.6965251!4d21.2222207?hl=sk-SK&shorturl=1"
+                        title="ako to unhacknem"
+                        >Hacknuta mapa</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="../cleni/index.html"
+                        title="vsetcli cleni trospysmp"
+                        >Členi</a
+                    >
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Mapa Webu</h1>
+            <ul>
+                <li><a href="../index.html">Domov</a></li>
+                <li>
+                    <a href="../cleni/index.html">Cleni</a>
+                    <ul>
+                        <li><a href="../cleni/trospy.html">Trospy</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../whitelist.html">Whitelist Generator</a>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <p><%- footer %></p>
+            <p class="credit">
+                Webstránky pripravil
+                <a
+                    title="odkaz na webstránku oliminatora"
+                    href="https://oliminator.net"
+                    >OLIMINATOR</a
+                >
+                v inteligentnej samsung hladničke
+            </p>
+        </footer>
+        <script
+            async
+            defer
+            src="https://scripts.simpleanalyticscdn.com/latest.js"
+        ></script>
+        <noscript
+            ><img
+                src="https://queue.simpleanalyticscdn.com/noscript.gif"
+                alt=""
+                referrerpolicy="no-referrer-when-downgrade"
+        /></noscript>
+    </body>
+</html>
