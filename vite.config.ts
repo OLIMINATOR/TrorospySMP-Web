@@ -7,8 +7,8 @@ export default defineConfig({
             minify: true,
             pages: [
                 {
-                    filename: "index.html",
-                    template: "index.html",
+                    filename: "./index.html",
+                    template: "./index.html",
                     injectOptions: {
                         data: {
                             title: "TrospySMP - Trospyho Minecraft server",
@@ -23,8 +23,8 @@ export default defineConfig({
                     },
                 },
                 {
-                    filename: "whitelist.html",
-                    template: "whitelist.html",
+                    filename: "./whitelist.html",
+                    template: "./whitelist.html",
                     injectOptions: {
                         data: {
                             title: "TrospySMP - Whitelist",
@@ -39,8 +39,8 @@ export default defineConfig({
                     },
                 },
                 {
-                    filename: "public/cleni/zoznam.html",
-                    template: "public/cleni/zoznam.html",
+                    filename: "./public/cleni/zoznam.html",
+                    template: "./public/cleni/zoznam.html",
                     injectOptions: {
                         data: {
                             title: "TrospySMP - Zoznam členov",
@@ -55,8 +55,8 @@ export default defineConfig({
                     },
                 },
                 {
-                    filename: "404.html",
-                    template: "404.html",
+                    filename: "./404.html",
+                    template: "./404.html",
                     injectOptions: {
                         data: {
                             title: "TrospySMP - 404",
@@ -71,8 +71,8 @@ export default defineConfig({
                     },
                 },
                 {
-                    filename: "public/cleni/trospy.html",
-                    template: "public/cleni/trospy.html",
+                    filename: "./public/cleni/trospy.html",
+                    template: "./public/cleni/trospy.html",
                     injectOptions: {
                         data: {
                             title: "TrospySMP - Trospy",
@@ -87,8 +87,8 @@ export default defineConfig({
                     },
                 },
                 {
-                    filename: "sitemap.html",
-                    template: "sitemap.html",
+                    filename: "./sitemap.html",
+                    template: "./sitemap.html",
                     injectOptions: {
                         data: {
                             title: "TrospySMP - Mapa Webu",
