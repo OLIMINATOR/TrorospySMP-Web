@@ -1,0 +1,25 @@
+@use "../util" as *;
+
+.profile-head {
+    background-color: none;
+    h1,
+    p,
+    li {
+        color: white;
+    }
+    a {
+        color: green;
+    }
+}
+.profile-main {
+    background-color: none;
+    h2,
+    h3,
+    p {
+        color: white;
+    }
+}
+
+.trospy-profile {
+    background-image: url("/src/images/trospyminiatura.png");
+}

@@ -1,0 +1,8 @@
+@use "../util" as *;
+
+.mainpage-info {
+    padding: rem(50) rem(50);
+    background-color: black;
+    background-image: url("/src/images/trospyabedrok.jpg");
+    background-size: cover;
+}

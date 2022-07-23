@@ -1,0 +1,28 @@
+@use "../util" as *;
+
+.error {
+    height: 93.65vh;
+    display: flex;
+    justify-content: center;
+    padding: rem(50) rem(100);
+    background-color: black;
+
+    h1 {
+        margin-top: rem(200);
+    }
+}
+@include breakpoint-down(medium) {
+    .error {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 0;
+        padding-left: rem(50);
+        padding-top: 0;
+        margin-top: 0;
+        img {
+            width: 300px;
+            margin-bottom: rem(580);
+        }
+    }
+}

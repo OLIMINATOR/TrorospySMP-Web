@@ -4,73 +4,29 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Primary Meta Tags -->
+        <title><%- title %></title>
+        <meta name="title" content="<%- title %>" />
+        <meta name="description" content="<%- description %>" />
 
-        <!-- GOOGLE FONT -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-            rel="stylesheet"
-        />
-        <!-- GOOGLE FONT END -->
-
-        <meta
-            name="description"
-            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další. Na tejto TrospySMP stránky nájdeš všetky informácie o TrospySMP a ako sa dostať na Trospysmp."
-        />
-        <meta
-            name="keywords"
-            content="Trospysmp, smp, survival, minecraft, trospy, hestreng, majnr, minecraft survival, zovicek, Medvid3k"
-        />
-
-        <meta name="author" content="TrospySMP" />
-        <link rel="icon" href="assets/logo.png" />
-
+        <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://trospysmp.cz" />
-        <meta property="og:title" content="TrospySMP" />
-        <meta
-            property="og:image"
-            content="https://trospysmp.cz/assets/pozadie.jpg"
-        />
-        <meta property="og:site_name" content="TrospySMP" />
-        <meta
-            property="og:description"
-            content="TrospySMP je minecraftový survival SMP server kde hrá mnoho YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a další."
-        />
-        <meta name="theme-color" content="#4d4d4d" />
+        <meta property="og:url" content="<%- url %>" />
+        <meta property="og:title" content="<%- title %>" />
+        <meta property="og:description" content="<%- description %>" />
+        <meta property="og:image" content="<%- card_image %>" />
+        <link rel="icon" href="/src/images/trospysmp.ico" />
 
+        <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://trospysmp.cz" />
-        <meta property="twitter:title" content="TrospySMP" />
+        <meta property="twitter:url" content="<%- url %>" />
+        <meta property="twitter:title" content="<%- title %>" />
+        <meta property="twitter:description" content="<%- description %>" />
+        <meta property="twitter:image" content="<%- card_image %>" />
         <meta name="twitter:site" content="@trospysmp" />
         <meta name="twitter:creator" content="@trospysmp" />
-        <meta
-            property="twitter:description"
-            content="Trospysmp, smp, survival, minecraft, trospy, hestreng, majnr, minecraft survival, zovicek, Medvid3k, dynmapa, ip, trospysmp ip, ip adresa"
-        />
-
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-            integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
-        <link rel="stylesheet" href="dist/style.css" />
-        <script
-            src="https://kit.fontawesome.com/5acf4d9e80.js"
-            crossorigin="anonymous"
-        ></script>
-        <script defer src="dist/script.js"></script>
-        <script
-            src="https://kit.fontawesome.com/5acf4d9e80.js"
-            crossorigin="anonymous"
-        ></script>
-
-        <link rel="icon" href="assets/trospysmp.ico" />
-        <title>TrospySMP - Trospyho SMP server</title>
-
+        <meta name="theme-color" content="<%- theme %>" />
+        <link rel="stylesheet" href="/src/scss/style.scss" />
         <script type="application/ld+json">
             {
               "@context": "https://schema.org",
@@ -109,14 +65,38 @@
         </script>
     </head>
     <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html" title="domovska stranka">Domov</a>
+                </li>
+                <li>
+                    <a href="../whitelist.html" title="blacklist generator"
+                        >Whitelist Generator</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://www.google.com/maps/place/Trospy+SMP/@48.6964001,21.2166386,18.5z/data=!4m5!3m4!1s0x473ee1bc387ee439:0x324dff701ba55b32!8m2!3d48.6965251!4d21.2222207?hl=sk-SK&shorturl=1"
+                        title="ako to unhacknem"
+                        >Hacknuta mapa</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="../cleni/index.html"
+                        title="vsetcli cleni trospysmp"
+                        >Členi</a
+                    >
+                </li>
+            </ul>
+        </nav>
         <header>
             <article class="head-text">
-                <h1 class="animate__animated animate__flip">
-                    TrospySMP - Trospyho SMP server
-                </h1>
+                <h1 class="animate__animated animate__flip"><%- title %></h1>
                 <p class="animate__animated animate__flip">
-                    TrospySMP Najkvalitnejší
-                    <span class="server-type" id="server">TrosypsSMP</span>
+                    Najkvalitnejší
+                    <span class="server-type" id="server">GTA</span>
                     Creative Roleplay server!
                 </p>
                 <section
@@ -125,22 +105,26 @@
                     <a
                         title="Mapa TrospySMP"
                         href="https://goo.gl/maps/VyU9eK4qkzry3UhLA"
-                        ><button class="btn1">
+                        ><button class="btn1" title="odkaz na mapu">
                             <i class="fas fa-map"></i> Mapu niekto hackol
                         </button></a
                     >
                     <a title="List TrospySMP čenov" href="cleni.html"
-                        ><button class="btn2">
+                        ><button class="btn2" title="členovia trospysmp">
                             <i class="fas fa-users"></i> Členi
                         </button></a
                     >
-                    <button onclick="ipalert()" class="btn3">
+                    <button
+                        onclick='alert("IP: trospysmp.cz")'
+                        class="btn3"
+                        title="ip adresa"
+                    >
                         <i class="fas fa-location-arrow"></i> IP
                     </button>
                     <a
                         title="Generátor pre whitelist na TrospySMP"
                         href="whitelist.html"
-                        ><button class="btn4">
+                        ><button class="btn4" title="whitelist generator">
                             <i class="fas fa-plus-circle"></i> Whitelist
                             Generator
                         </button></a
@@ -155,7 +139,7 @@
                         <h2>Čo je trospysmp?</h2>
                         <p>
                             TrospySMP je minecraftový survival SMP server.
-                            TrospySMP beží na najnovšej FiveM verzrzii 1.18 a
+                            TrospySMP beží na najnovšej FiveM verzrzii 1.19.1 a
                             taktiež vyuźíva funkciu LifeSteal (Hráči si môži
                             kradnúť srdcia a jedlo asi). Na TrospySMP hrá mnoho
                             YouTuberov ako Trospy, Hestreng, Zovicek, Medvid3k a
@@ -223,14 +207,14 @@
                         <p>
                             Pokial ešte nesleduješ TrospySMP trospyho SMP
                             economy server na sociálnych sietiach tak robíš
-                            chybu!
+                            veľkú chybu!
                         </p>
                     </section>
                 </div>
             </article>
         </main>
         <footer>
-            <p>Trospysmp 1973 - 2020</p>
+            <p><%- footer %></p>
             <p class="credit">
                 Webstránky pripravil
                 <a
@@ -240,6 +224,7 @@
                 >
                 v inteligentnej samsung hladničke
             </p>
+            <a href="../sitemap.html" title="sitemap">Mapa Webu</a>
         </footer>
         <script
             async

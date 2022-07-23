@@ -1,0 +1,23 @@
+@use "../util" as *;
+
+.whitelist {
+    height: 93.65vh;
+    display: flex;
+    justify-content: center;
+    padding: rem(50) rem(100);
+    background-color: black;
+    background-image: url("/src/images/wl.jpg");
+    background-size: cover;
+
+    h1 {
+        margin-top: rem(200);
+    }
+
+    .id-bg {
+        background-color: white;
+        color: black;
+        border-radius: rem(5);
+        border-color: black;
+        border-style: solid;
+    }
+}
