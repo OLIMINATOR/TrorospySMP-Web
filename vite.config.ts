@@ -39,8 +39,8 @@ export default defineConfig({
                     },
                 },
                 {
-                    filename: "public/cleni/index.html",
-                    template: "public/cleni/index.html",
+                    filename: "public/cleni/zoznam.html",
+                    template: "public/cleni/zoznam.html",
                     injectOptions: {
                         data: {
                             title: "TrospySMP - Zoznam členov",
@@ -110,7 +110,7 @@ export default defineConfig({
             input: {
                 main: "./index.html",
                 whitelist: "./whitelist.html",
-                cleni: "./public/cleni/index.html",
+                cleni: "./public/cleni/zoznam.html",
                 trospy: "./public/cleni/trospy.html",
                 404: "./404.html",
                 sitemap: "./sitemap.html",
